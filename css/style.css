@@ -150,6 +150,7 @@ a{
 
 .caption{
         display: block;
+        text-align: right;
 }
 
 .middleRandomText{
