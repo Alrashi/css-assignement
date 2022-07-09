@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-light-italic';
+    src: url(../fonts/Roboto-LightItalic.ttf);
+}
+
+.top{
+    background-color: #1F2937;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 80px;
+    margin-right: 80px;
+    max-height: 500px;
+    max-width: 1700;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.topHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+#links{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1; 
+}
+
+a{
+    color: aliceblue;
+}
+
+#logo{
+    color: beige;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    font-size: 24px;
+    font-family: "Roboto-Black",sans-serif;
+    color: #F9FAF8;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+
+.contentColumn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+#imageOfTopDiv{
+   
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#imageOfTop{
+    height: 200px;
+    width: 600px;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+
+#textTop{
+    display: flex;
+    flex-direction: column;
+}
+
+#maintextLine1::after{
+    content: "\a";
+    white-space: pre;
+}
+
+.hero-secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 2px;
+}
+
+#subtextLine1::after{
+    content: "\a";
+    white-space: pre;
+}
+
+#subtextLine2::after{
+    content: "\a";
+    white-space: pre;
+}
+
+#button{
+    background-color: #3882F6;
+    width: 40%;
+    height: 150%;
+    border-radius: 8px;
+    font-size: small;
+    color: white;
+    
+}
+
+
+#middle-random-picture{
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 0px;
+    height: 500px;
+    width: 1700;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.middle-images{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.middleImage{
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.imageDiv{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+
+.caption{
+        display: block;
+}
+
+.middleRandomText{
+  text-align: center;
+  color: #1F2937; 
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.quoteDiv{
+    background-color: #E5E7EB;
+    margin-top: 0px;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 500px;
+    width: 1700;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.quoteText{
+    font-size: 36px;
+    font-family: 'Roboto-light-italic';
+    color: #1F2937;
+}
+
+#author{
+    font-size: 28px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+}
+
+
+.quoteP2{
+    content: "\a";
+    white-space: pre;
+}
+
+#bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.signupDiv{
+    display: flex;
+    background-color: #3882F6;
+    height: 150px;
+    width: 1200px;
+    margin-top: 100px;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.callToAction{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 50px;
+    padding-left: 0px;
+}
+
+.paragraphCallToAction{
+    font-size: 24px;
+    color: white;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.paragraphCallToAction-2{
+    font-size: 15px;
+    color: white;
+    padding-top: 2px;
+    margin: 0px;
+}
+
+#signupButton-2{
+    background-color: #3882F6;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: 3px solid white;
+    font-size: small;
+    color: white;
+    font-size: medium;
+}
+
+.signupButtonDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: large;
+    color: white;
+}
+
+#copyRights{
+    padding: 60px;
+}
+
